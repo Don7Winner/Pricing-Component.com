@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Pricing Component</title>
+    <!-- THE LINK FOR FONT STYLE  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/Stylesheet.css" />
+  </head>
+  <body>
+    <img src="images/bg-top.svg" alt="background image" />
+    <header>
+      <h1>Our Pricing</h1>
+      <div class="control">
+        <p id="annual">Annually</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+        <p id="monthly">Monthly</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="basic">
+        <p>Basic</p>
+        <p class="monthly-num">&dollar;<span>19.99</span></p>
+        <p class="annual-num">&dollar;<span>199.99</span></p>
+        <hr />
+        <p>500 GB Storage</p>
+        <hr />
+        <p>2 Users Allowed</p>
+        <hr />
+        <p>Send up to 3 GB</p>
+        <hr />
+        <button>Learn More</button>
+      </section>
+
+      <section class="professional">
+        <p>Professional</p>
+        <p class="monthly-num">&dollar;<span>24.99</span></p>
+        <p class="annual-num">&dollar;<span>249.99</span></p>
+        <hr />
+        <p>1 TB Storage</p>
+        <hr />
+        <p>5 Users Allowed</p>
+        <hr />
+        <p>Send up to 10 GB</p>
+        <hr />
+        <button>Learn More</button>
+      </section>
+
+      <section class="master">
+        <p>Master</p>
+        <p class="monthly-num">&dollar;<span>39.99</span></p>
+        <p class="annual-num">&dollar;<span>399.99</span></p>
+        <hr />
+        <p>2 TB Storage</p>
+        <hr />
+        <p>10 Users Allowed</p>
+        <hr />
+        <p>Send up to 20 GB</p>
+        <hr />
+        <button>Learn More</button>
+      </section>
+    </main>
+    <img src="images/bg-bottom.svg" alt="background image" class="bottom-img" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="CSS/index.js"></script>
+  </body>
+</html>
